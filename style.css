@@ -1,0 +1,264 @@
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes line {
+  from {
+    opacity: 1;
+    stroke-dashoffset: -300;
+  }
+  to {
+    opacity: 1;
+    stroke-dashoffset: 300;
+  }
+}
+@keyframes line {
+  from {
+    opacity: 1;
+    stroke-dashoffset: -300;
+  }
+  to {
+    opacity: 1;
+    stroke-dashoffset: 300;
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    r: 13;
+  }
+  50% {
+    r: 17;
+  }
+  100% {
+    r: 13;
+  }
+}
+@keyframes pulse {
+  0% {
+    r: 13;
+  }
+  50% {
+    r: 17;
+  }
+  100% {
+    r: 13;
+  }
+}
+@-webkit-keyframes pulse2 {
+  0% {
+    r: 9;
+  }
+  50% {
+    r: 12;
+  }
+  100% {
+    r: 9;
+  }
+}
+@keyframes pulse2 {
+  0% {
+    r: 9;
+  }
+  50% {
+    r: 12;
+  }
+  100% {
+    r: 9;
+  }
+}
+#colombie,
+#reunion-island,
+#poland,
+#london,
+#canada,
+#martinique,
+#paris {
+  opacity: 0;
+  transform: translateY(-20px);
+  -webkit-animation: show 0.4s linear 0.2s forwards;
+          animation: show 0.4s linear 0.2s forwards;
+}
+
+#martinique {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#paris {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#poland {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#canada {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#london {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#reunion-island {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+#colombie .cls-10 {
+  r: 13;
+  -webkit-animation: pulse 2s linear infinite;
+          animation: pulse 2s linear infinite;
+}
+
+#colombie .cls-11 {
+  r: 9;
+  -webkit-animation: pulse2 2s linear infinite;
+          animation: pulse2 2s linear infinite;
+}
+
+[id*=plot] {
+  opacity: 1;
+  stroke-dasharray: 10;
+  -webkit-animation: line 45s linear infinite;
+          animation: line 45s linear infinite;
+}
+
+[id*=led-] {
+  opacity: 0;
+  -webkit-animation: blink 1s linear 0s infinite;
+          animation: blink 1s linear 0s infinite;
+}
+
+#led-2 {
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+}
+
+#led-3 {
+  -webkit-animation-duration: 0.999s;
+          animation-duration: 0.999s;
+}
+
+#led-4 {
+  -webkit-animation-duration: 0.876s;
+          animation-duration: 0.876s;
+}
+
+#led-5 {
+  -webkit-animation-duration: 0.909s;
+          animation-duration: 0.909s;
+}
+
+#led-6 {
+  -webkit-animation-duration: 0.921s;
+          animation-duration: 0.921s;
+}
+
+#led-7 {
+  -webkit-animation-duration: 0.858s;
+          animation-duration: 0.858s;
+}
+
+#led-8 {
+  -webkit-animation-duration: 1001s;
+          animation-duration: 1001s;
+}
+
+#led-9 {
+  -webkit-animation-duration: 0.759s;
+          animation-duration: 0.759s;
+}
+
+#led-10 {
+  -webkit-animation-duration: 0.945s;
+          animation-duration: 0.945s;
+}
+
+#led-11 {
+  -webkit-animation-duration: 0.823s;
+          animation-duration: 0.823s;
+}
+
+#led-12 {
+  -webkit-animation-duration: 0.987s;
+          animation-duration: 0.987s;
+}
+
+#led-13 {
+  -webkit-animation-duration: 0.802s;
+          animation-duration: 0.802s;
+}
+
+#led-14 {
+  -webkit-animation-duration: 0.995s;
+          animation-duration: 0.995s;
+}
+
+#led-15 {
+  -webkit-animation-duration: 0.81s;
+          animation-duration: 0.81s;
+}
+
+#led-16 {
+  -webkit-animation-duration: 0.99s;
+          animation-duration: 0.99s;
+}
+
+#led-17 {
+  -webkit-animation-duration: 0.83s;
+          animation-duration: 0.83s;
+}
+
+#led-18 {
+  -webkit-animation-duration: 0.97s;
+          animation-duration: 0.97s;
+}
